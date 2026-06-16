@@ -1,5 +1,6 @@
 import sqlite3
 
+#allu khao pyag khao khao good sakker per mhare ta na liye takker
 class student:
     def __init__(self):
         self.serv = sqlite3.connect("std_ser.db")
